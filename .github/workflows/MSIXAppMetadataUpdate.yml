@@ -12,7 +12,7 @@ jobs:
       shell: pwsh
       run: |
           $json = msstore submission get 9NPD2DZNJJHB | ConvertFrom-Json -AsHashtable
-          $json.Listings.'en-us'.BaseListing.Description = 'Updated from GitHub action flow'
+          $json.Listings.'en'.BaseListing.Description = 'Updated from GitHub action flow'
           msstore submission updateMetadata 9NPD2DZNJJHB ($json | ConvertTo-Json -Depth 100)
           msstore submission publish 9NPD2DZNJJHB
 
