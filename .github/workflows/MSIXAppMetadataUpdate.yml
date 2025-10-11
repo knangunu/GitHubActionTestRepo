@@ -11,8 +11,8 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $json = msstore submission get 9NPD2DZNJJHB | ConvertFrom-Json -AsHashtable
+          $json = msstore submission get 9NP0T3QQXL70 | ConvertFrom-Json -AsHashtable
           $json.Listings.'en'.BaseListing.Description = 'Updated from GitHub action flow'
-          msstore submission updateMetadata 9NPD2DZNJJHB ($json | ConvertTo-Json -Depth 100)
-          msstore submission publish 9NPD2DZNJJHB
+          msstore submission updateMetadata 9NP0T3QQXL70 ($json | ConvertTo-Json -Depth 100)
+          msstore submission publish 9NP0T3QQXL70
 
