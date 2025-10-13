@@ -1,5 +1,5 @@
 {
-  "Listings": [
+  "Listings":
     {
       "Language": "en-us",
       "Description": "EXETestApp200 - Updated description",
@@ -31,6 +31,5 @@
       "SortTitle": null,
       "ContactInfo": null
     }
-  ]
-
 }
+
