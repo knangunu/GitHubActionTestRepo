@@ -1,0 +1,139 @@
+{
+	"Availability": {
+		"Markets": [
+			"US",
+			"GB",
+			"CA"
+		],
+		"Discoverability": "DEEPLINK_ONLY",
+		"EnableInFutureMarkets": true,
+		"Pricing": "PAID",
+		"FreeTrial": "FREE_TRIAL"
+	},
+	"Properties": {
+		"IsPrivacyPolicyRequired": true,
+		"PrivacyPolicyUrl": "https://www.acronis.com/en-us/company/privacy/",
+		"WebSite": "https://www.acronis.com/",
+		"SupportContactInfo": "https://www.acronis.com/en-us/support/",
+		"CertificationNotes": "Proprietary",
+		"Category": "DeveloperTools",
+		"SubCategory": null,
+		"ProductDeclarations": {
+			"DependsOnDriversOrNT": false,
+			"AccessibilitySupport": false,
+			"PenAndInkSupport": false
+		},
+		"IsSystemFeatureRequired": [
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Touch"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Keyboard"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Mouse"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Camera"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "NFC_HCE"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "NFC_Proximity"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Bluetooth_LE"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Telephony"
+			},
+			{
+				"IsRequired": false,
+				"IsRecommended": false,
+				"HardwareItemType": "Microphone"
+			}
+		],
+		"SystemRequirementDetails": [
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "Memory"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "DirectX"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "Video_Memory"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "Memory"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "DirectX"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "Processor"
+			},
+			{
+				"MinimumRequirement": "",
+				"RecommendedRequirement": "",
+				"HardwareItemType": "Graphics"
+			}
+		]
+	},
+	"Listings": [
+		{
+			"Language": "en",
+			"Description": "Test Listing Update from GitHub",
+			"WhatsNew": "Test Listing Update from GitHub",
+			"ProductFeatures": [
+				"Test Listing Update from GitHub"
+			],
+			"ShortDescription": "Test Listing Update from GitHub",
+			"SearchTerms": [
+				"CyberProtectHomeOffice",
+				"Acronis",
+				"cyber protect"
+			],
+			"AdditionalLicenseTerms": "Proprietary",
+			"Copyright": "Test Listing Update from GitHub",
+			"DevelopedBy": "Test Listing Update from GitHub",
+			"Requirements": [
+				{
+					"MinimumRequirement": null,
+					"RecommendedRequirement": null,
+					"HardwareItemType": null
+				}
+			],
+			"SortTitle": "Test Listing Update from GitHub",
+			"ContactInfo": "Test Listing Update from GitHub"
+		}
+	]
+}
