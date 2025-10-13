@@ -1,4 +1,4 @@
-name: MSIXAppMetadataUpdate
+name: Win32AppPackageUpdate
 on:   
       workflow_dispatch:
 jobs:
@@ -10,20 +10,8 @@ jobs:
     - run: msstore reconfigure --tenantId ${{ secrets.AZURE_AD_TENANT_ID }} --sellerId ${{ secrets.SELLER_ID }} --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
     - name: Update draft submission
       run: |-
-          msstore submission update 28d4b502-6be7-414d-950d-680de94a32bb '{
-            "packages":[
-                {
-                  "packageUrl":"https://download.microsoft.com/download/a/b/9/ab92b51f-92ea-4d46-9d21-9446bd20eed8/Update/BWCI/MSStore/2.0.1.1/BWCStartMSI.exe",
-                  "languages":["en"],
-                  "architectures":["X64"],
-                  "installerParameters":"/silent",
-                  "isSilentInstall":true,
-                  "PackageType": "exe",
-                  "GenericDocUrl": "https://docs.contoso.com/doclink",
-                  "PackageId": "94375341"
-                }
-            ]
-          }'
+          $win32Packages = Get-Content -Raw "${{ github.workspace }}/Apps/Acronics/win32_packages.json"
+          msstore submission update 28d4b502-6be7-414d-950d-680de94a32bb $win32Packages
     - name: Publish Submission
       run: |-
           msstore submission publish 28d4b502-6be7-414d-950d-680de94a32bb
