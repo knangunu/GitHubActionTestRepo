@@ -13,4 +13,4 @@ jobs:
       run: |
           $listings = Get-Content -Raw "win32_listings.json"
           msstore submission updateMetadata 28d4b502-6be7-414d-950d-680de94a32bb $listings
-      #msstore submission publish 28d4b502-6be7-414d-950d-680de94a32bb
+          msstore submission publish 28d4b502-6be7-414d-950d-680de94a32bb
