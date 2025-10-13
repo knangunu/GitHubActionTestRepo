@@ -2,8 +2,8 @@
   "Listings": [
     {
       "Language": "en-us",
-      "Description": "EXETestApp200 - Updated description with new features and improvements",
-      "WhatsNew": "EXETestApp200 - Latest updates include bug fixes and performance enhancements",
+      "Description": "EXETestApp200 - Updated description",
+      "WhatsNew": "EXETestApp200 - updated",
       "ProductFeatures": [
         "Enhanced performance",
         "Improved user interface",
@@ -32,4 +32,5 @@
       "ContactInfo": null
     }
   ]
+
 }
