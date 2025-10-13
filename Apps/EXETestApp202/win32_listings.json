@@ -1,23 +1,30 @@
 {
-	"Listings": {
-		"Language": "en",
-		"Description": "Github action test",
-		"WhatsNew": "Github action test",
-		"ProductFeatures": [
-			"Github action test"
-		],
-		"ShortDescription": "Github action test",
-		"SearchTerms": [
-			"test term1",
-			"Acronis",
-			"cyber protect"
-		],
-		"AdditionalLicenseTerms": "Github action test",
-		"Copyright": "Github action test",
-		"DevelopedBy": "Github action test",
-		"Requirements": [
-		],
-		"SortTitle": "Github action test",
-		"ContactInfo": "Github action test"
-	}
+  "Listings": [
+    {
+      "Language": "en-us",
+      "Description": "ExeTestApp203",
+      "WhatsNew": "ExeTestApp203 - whats new",
+      "ProductFeatures": [
+        "test1",
+        "test2"
+      ],
+      "ShortDescription": "ExeTestApp203 - short descp",
+      "SearchTerms": [
+        "keyword1",
+        "keyword2"
+      ],
+      "AdditionalLicenseTerms": "ExeTestApp203 - license terms",
+      "Copyright": "EXeTestApp201 - copyright",
+      "DevelopedBy": "testuser",
+      "Requirements": [
+        {
+          "MinimumRequirement": null,
+          "RecommendedRequirement": null,
+          "HardwareItemType": null
+        }
+      ],
+      "SortTitle": null,
+      "ContactInfo": null
+    }
+  ]
 }

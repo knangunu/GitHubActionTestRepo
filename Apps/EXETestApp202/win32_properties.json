@@ -1,26 +1,26 @@
 {
   "Properties": {
     "IsPrivacyPolicyRequired": true,
-    "PrivacyPolicyUrl": "https://cdn.storeedgefd.dsx.mp.microsoft.com/wus2/privacy-policy-storage/88076690/f16b20ce-f82e-4046-bd70-81e703ca6e30/draftsubmission/privacy_policy_983ba7cc-85cb-4cc2-bf59-abd8ae845419.txt",
-    "WebSite": "http://supportinfo1.com",
-    "SupportContactInfo": "http://supportinfo1.com",
-    "CertificationNotes": "updated from cli",
-    "Category": "Education",
-    "SubCategory": "Language",
+    "PrivacyPolicyUrl": "https://cdn.storeedgefd.dsx.mp.microsoft.com/wus2/privacy-policy-storage/88076690/454ad58e-bb9a-4c56-a88c-c08011a1ead3/draftsubmission/privacy_policy_6f1f3833-51b2-4371-bf3e-18099ed9ea20.txt",
+    "WebSite": "http://supportinfo.com",
+    "SupportContactInfo": "http://supportinfo.com",
+    "CertificationNotes": "Test app",
+    "Category": "Entertainment",
+    "SubCategory": "",
     "ProductDeclarations": {
       "DependsOnDriversOrNT": true,
-      "AccessibilitySupport": false,
+      "AccessibilitySupport": true,
       "PenAndInkSupport": true
     },
     "IsSystemFeatureRequired": [
       {
-        "IsRequired": true,
-        "IsRecommended": true,
+        "IsRequired": false,
+        "IsRecommended": false,
         "HardwareItemType": "Touch"
       },
       {
-        "IsRequired": true,
-        "IsRecommended": true,
+        "IsRequired": false,
+        "IsRecommended": false,
         "HardwareItemType": "Keyboard"
       },
       {
@@ -61,8 +61,8 @@
     ],
     "SystemRequirementDetails": [
       {
-        "MinimumRequirement": "2GB",
-        "RecommendedRequirement": "4GB",
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
         "HardwareItemType": "Memory"
       },
       {
@@ -71,8 +71,8 @@
         "HardwareItemType": "DirectX"
       },
       {
-        "MinimumRequirement": "",
-        "RecommendedRequirement": "",
+        "MinimumRequirement": "1GB",
+        "RecommendedRequirement": "6GB",
         "HardwareItemType": "Video_Memory"
       },
       {
