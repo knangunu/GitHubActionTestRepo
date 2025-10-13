@@ -1,21 +1,21 @@
 {
   "Properties": {
     "IsPrivacyPolicyRequired": true,
-    "PrivacyPolicyUrl": "https://cdn.storeedgefd.dsx.mp.microsoft.com/wus2/privacy-policy-storage/88076690/f16b20ce-f82e-4046-bd70-81e703ca6e30/draftsubmission/privacy_policy_983ba7cc-85cb-4cc2-bf59-abd8ae845419.txt",
-    "WebSite": "http://supportinfo1.com",
-    "SupportContactInfo": "http://supportinfo1.com",
-    "CertificationNotes": "updated from cli",
+    "PrivacyPolicyUrl": "https://cdn.storeedgefd.dsx.mp.microsoft.com/wus2/privacy-policy-storage/88076690/0eea0e40-e7a3-4fe3-abb1-199ece696151/draftsubmission/privacy_policy_6fcc19cf-a62f-4ab9-bd7e-a9d9c490abc8.txt",
+    "WebSite": "http://supportinfo.com",
+    "SupportContactInfo": "http://supportinfo.com",
+    "CertificationNotes": "Test product",
     "Category": "Education",
     "SubCategory": "Language",
     "ProductDeclarations": {
       "DependsOnDriversOrNT": true,
-      "AccessibilitySupport": false,
+      "AccessibilitySupport": true,
       "PenAndInkSupport": true
     },
     "IsSystemFeatureRequired": [
       {
-        "IsRequired": true,
-        "IsRecommended": true,
+        "IsRequired": false,
+        "IsRecommended": false,
         "HardwareItemType": "Touch"
       },
       {
@@ -61,13 +61,13 @@
     ],
     "SystemRequirementDetails": [
       {
-        "MinimumRequirement": "2GB",
-        "RecommendedRequirement": "4GB",
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
         "HardwareItemType": "Memory"
       },
       {
-        "MinimumRequirement": "",
-        "RecommendedRequirement": "",
+        "MinimumRequirement": "DX9",
+        "RecommendedRequirement": "DX10",
         "HardwareItemType": "DirectX"
       },
       {
