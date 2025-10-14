@@ -11,7 +11,7 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $metadata = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/msix_metadata.json"
-          msstore submission updateMetadata <productId> $metadata
-          msstore submission publish <productId>
+          $metadata = Get-Content -Raw "${{ github.workspace }}/Apps/FitnessFuel/msix_metadata.json"
+          msstore submission updateMetadata 9NP0T3QQXL70 $metadata
+          msstore submission publish 9NP0T3QQXL70
 
