@@ -1,0 +1,13 @@
+name: EnvInfo
+on:   
+      workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: FetchEnv
+      shell: pwsh
+      run: |
+          echo "Runner OS: $RUNNER_OS"
+          echo "Temp dir: $RUNNER_TEMP"
+          echo "Tool cache: $RUNNER_TOOL_CACHE"
