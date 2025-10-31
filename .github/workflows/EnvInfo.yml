@@ -13,11 +13,8 @@ jobs:
             } else {
                     Write-Host "Not running in GitHub Actions"
             }
-            if ($env:GITHUB_WORKFLOW -eq "true") {
-                    Write-Host "Running inside GITHUB_WORKFLOW"
-            } else {
-                    Write-Host "Not running in GITHUB_WORKFLOW"
-            }
+            
+            Write-Host "GITHUB_WORKFLOW: " + $env:GITHUB_WORKFLOW
             Write-Host "GITHUB_RUN_ID: " + $env:GITHUB_RUN_ID
             Write-Host "GITHUB_REPOSITORY: " + $env:GITHUB_REPOSITORY
             Write-Host "GITHUB_ACTOR: " + $env:GITHUB_ACTOR
