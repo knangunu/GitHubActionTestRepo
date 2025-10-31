@@ -11,3 +11,8 @@ jobs:
           echo "Runner OS: $RUNNER_OS"
           echo "Temp dir: $RUNNER_TEMP"
           echo "Tool cache: $RUNNER_TOOL_CACHE"
+          if ($env:GITHUB_ACTIONS -eq "true") {
+                    Write-Host "Running inside GitHub Actions"
+            } else {
+                    Write-Host "Not running in GitHub Actions"
+            }
