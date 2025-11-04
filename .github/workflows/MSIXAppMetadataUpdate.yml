@@ -11,5 +11,4 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $metadata = Get-Content -Raw "${{ github.workspace }}/msix_metadata.json"
-          $metadata
+          msstore submission get 9NDRMZKRHKG3
