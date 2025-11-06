@@ -11,4 +11,5 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
+          msstore --version   
           msstore submission get 9NDRMZKRHKG3
