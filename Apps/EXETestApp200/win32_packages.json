@@ -1,7 +1,7 @@
 {
   "Packages": [
     {
-      "PackageUrl": "https://download.microsoft.com/download/a/b/9/ab92b51f-92ea-4d46-9d21-9446bd20eed8/Update/BWCI/MSStore/2.0.1.1/BWCStartMSI.exe",
+      "PackageUrl": "https://download.microsoft.com/download/a/b/9/ab92b51f-92ea-4d46-9d21-9446bd20eed8/Update/BWCI/MSStore/2.0.1.1/ BWCStartMSI.exe",
       "Languages": [
         "en-us",
         "fr-fr"
@@ -54,4 +54,5 @@
       "PackageId": "20722474"
     }
   ]
+
 }
