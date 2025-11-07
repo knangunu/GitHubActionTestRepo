@@ -23,8 +23,8 @@ jobs:
               --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} `
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
 
-      - name: Publish App package
-        run: msstore submission updateMetadata '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' 9NP0T3QQXL70
-      - name: Publish Submission
+      - name: Update metadata
+        run: msstore submission updateMetadata 9NP0T3QQXL70 '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' 
+      - name: Publish to Store
         run: msstore submission publish 9NP0T3QQXL70
               
