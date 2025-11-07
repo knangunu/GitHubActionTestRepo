@@ -24,4 +24,5 @@ jobs:
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
 
       - name: Publish App package
-        run: msstore publish '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' -id "<productId>"
+        run: msstore submission updateMetadata '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' -id "9NP0T3QQXL70"
+             msstore submission publish 9NP0T3QQXL70
