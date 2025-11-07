@@ -3,7 +3,7 @@ name: AppMetadataAutoUpdate
 on:
   push:
     paths:
-      - 'Apps/FitnessFuel/pkota.FitnessFuel_1.0.3.0_x86__4fxr7wcjkzrjg.msix'
+      - 'Apps/FitnessFuel/Release/pkota.FitnessFuel.msix'
 
 jobs:
   build:
@@ -24,5 +24,5 @@ jobs:
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
 
       - name: Publish App package
-        run: msstore publish '${{ github.workspace }}/Apps/FitnessFuel/pkota.FitnessFuel_1.0.3.0_x86__4fxr7wcjkzrjg.msix' -id "9NP0T3QQXL70"
+        run: msstore publish '${{ github.workspace }}/Apps/FitnessFuel/Release/pkota.FitnessFuel.msix' -id "9NP0T3QQXL70"
     
