@@ -25,4 +25,6 @@ jobs:
 
       - name: Publish App package
         run: msstore submission updateMetadata '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' -id "9NP0T3QQXL70"
-             msstore submission publish 9NP0T3QQXL70
+      - name: Publish Submission
+        run: msstore submission publish '9NP0T3QQXL70' 
+              
