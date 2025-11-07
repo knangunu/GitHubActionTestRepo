@@ -3,7 +3,7 @@ name: AppMetadataAutoUpdate
 on:
   push:
     paths:
-      - 'Apps/FitnessFuel/metadata.json'
+      - 'Apps/FitnessFuel/metadata/metadata.json'
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
 
       - name: Update metadata
-        run: msstore submission updateMetadata 9NP0T3QQXL70 '${{ github.workspace }}/Apps/FitnessFuel/metadata.json' 
+        run: msstore submission updateMetadata '9NP0T3QQXL70' '${{ github.workspace }}/Apps/FitnessFuel/metadata/metadata.json' 
       - name: Publish to Store
         run: msstore submission publish 9NP0T3QQXL70
               
