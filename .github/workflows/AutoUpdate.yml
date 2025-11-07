@@ -1,4 +1,4 @@
-name: MSIXAppPackageUpdate
+name: AutoUpdate
 
 on:
   push:
