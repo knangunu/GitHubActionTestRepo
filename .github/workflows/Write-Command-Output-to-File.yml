@@ -1,0 +1,25 @@
+name: Write Command Output to File
+
+on:
+  workflow_dispatch:
+
+jobs:
+  write_output:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run PowerShell command and write output
+        shell: pwsh
+        run: |
+          $filePath = "data\output.txt"
+
+          # Example command (replace with your own)
+          $result = Get-Date
+
+          # Overwrite file with command output
+          $result | Out-File -FilePath $filePath -Encoding utf8
+
+          Write-Host "Wrote command output to $filePath"
