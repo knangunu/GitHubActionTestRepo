@@ -16,7 +16,7 @@ jobs:
       - name: Copy content from source to destination
         run: |
           SOURCE_FILE="data.txt"
-          DEST_FILE="metadata\metadata.json"
+          DEST_FILE="data2.txt"
 
           if [ -f "$SOURCE_FILE" ]; then
             cat "$SOURCE_FILE" > "$DEST_FILE"
@@ -31,5 +31,5 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add metadata\metadata.json
-          git commit -m "Copied content from source.txt to metadata\metadata.json"
+          git add data2.txt
+          git commit -m "Copied content from source.txt to data2.txt"
