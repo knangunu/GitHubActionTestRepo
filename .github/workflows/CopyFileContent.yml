@@ -1,9 +1,7 @@
 name: CopyFileContent
 
-on:
-  push:
-    branches:
-      - main  # Trigger on pushes to main branch
+on:   
+      workflow_dispatch:
 
 jobs:
   copy-file:
@@ -17,8 +15,8 @@ jobs:
       # Step 2: Read content from source file and write to destination file
       - name: Copy content from source to destination
         run: |
-          SOURCE_FILE="source.txt"
-          DEST_FILE="destination.txt"
+          SOURCE_FILE="data.txt"
+          DEST_FILE="data2.txt"
 
           if [ -f "$SOURCE_FILE" ]; then
             cat "$SOURCE_FILE" > "$DEST_FILE"
