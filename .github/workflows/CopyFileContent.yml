@@ -31,5 +31,5 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add destination.txt
-          git commit -m "Copied content from source.txt to destination.txt"
+          git add metadata\metadata.json
+          git commit -m "Copied content from source.txt to metadata\metadata.json"
