@@ -19,4 +19,21 @@ jobs:
             Write-Host "GITHUB_REPOSITORY: " + $env:GITHUB_REPOSITORY
             Write-Host "GITHUB_ACTOR: " + $env:GITHUB_ACTOR
             Write-Host "GITHUB_REF: " + $env:GITHUB_REF
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Run PowerShell command and write output
+      shell: pwsh
+      run: |
+          $filePath = "metadata\metadata.json"
+
+          # Example command (replace with your own)
+          $result = "test data"
+
+          # Overwrite file with command output
+          $result | Out-File -FilePath $filePath -Encoding utf8
+
+          Write-Host "Wrote command output to $filePath"
+         
             
