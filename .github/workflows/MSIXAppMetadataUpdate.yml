@@ -11,5 +11,9 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
+            # Ensure metadata folder exists (creates it if missing)
+            if (-not (Test-Path "metadata")) {
+                New-Item -ItemType Directory -Path "metadata" | Out-Null
+            }
             $output = msstore submission get 9NDRMZKRHKG3
             Set-Content -Path "metadata\metadata.json" -Value $output
