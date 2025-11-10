@@ -14,10 +14,10 @@ jobs:
       - name: Run PowerShell command and write output
         shell: pwsh
         run: |
-          $filePath = "data\output.txt"
+          $filePath = "data.txt"
 
           # Example command (replace with your own)
-          $result = Get-Date
+          $result = "test"
 
           # Overwrite file with command output
           $result | Out-File -FilePath $filePath -Encoding utf8
