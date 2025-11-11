@@ -11,5 +11,5 @@ jobs:
     - name: Get Metadata
       shell: pwsh
       run: |
-            msstore submission get 9NDRMZKRHKG3
+            msstore submission get 9NP0T3QQXL70
             
