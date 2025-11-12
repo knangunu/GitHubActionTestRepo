@@ -101,9 +101,7 @@
     ],
     "CertificationReports": []
   },
-  "FileUploadUrl":
-"https://ingestionpackagesprod1.blob.core.windows.net/ingestion/fc77ebfe-fb88-48ae-9890-6b453bcde819?skoid=6a05eb41-c97a-4f14-a5ce-d392056c0e00\u0026sktid=975f013f-7f24-47e8-a7d3-abc4752bf346\u0026skt=2025-11-12T13%3A48%3A02
-Z\u0026ske=2025-11-19T13%3A48%3A02Z\u0026sks=b\u0026skv=2024-05-04\u0026sv=2024-05-04\u0026se=2025-11-13T14%3A10%3A45Z\u0026sr=b\u0026sp=rwl\u0026sig=AreiC4FgeS4cK4qgypMku5AHTlrcN9HZIjaybVT7YHg%3D",
+  "FileUploadUrl":null,
   "ApplicationPackages": [
     {
       "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
