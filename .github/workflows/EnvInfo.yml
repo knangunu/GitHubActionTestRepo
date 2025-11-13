@@ -11,16 +11,16 @@ jobs:
       - name: Fetch Environment Info
         shell: pwsh
         run: |
-          if ($env:GITHUB_ACTIONS -eq "true") {
-              Write-Host "Running inside GitHub Actions"
-          } elseif ($env:CI -eq "true") {
+           if ($env:CI -eq "true") {
               Write-Host "Running inside CI (non-GitHub)"
-          } else {
+            }
+           elseif ($env:GITHUB_ACTIONS -eq "true") {
+              Write-Host "Running inside GitHub Actions"
+           } else {
               Write-Host "Running outside CI (local or other)"
-          }
-
-          Write-Host "GITHUB_WORKFLOW: $($env:GITHUB_WORKFLOW)"
-          Write-Host "GITHUB_RUN_ID: $($env:GITHUB_RUN_ID)"
-          Write-Host "GITHUB_REPOSITORY: $($env:GITHUB_REPOSITORY)"
-          Write-Host "GITHUB_ACTOR: $($env:GITHUB_ACTOR)"
-          Write-Host "GITHUB_REF: $($env:GITHUB_REF)"
+           }
+           Write-Host "GITHUB_WORKFLOW: $($env:GITHUB_WORKFLOW)"
+           Write-Host "GITHUB_RUN_ID: $($env:GITHUB_RUN_ID)"
+           Write-Host "GITHUB_REPOSITORY: $($env:GITHUB_REPOSITORY)"
+           Write-Host "GITHUB_ACTOR: $($env:GITHUB_ACTOR)"
+           Write-Host "GITHUB_REF: $($env:GITHUB_REF)"
