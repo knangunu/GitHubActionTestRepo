@@ -11,7 +11,7 @@ jobs:
     - name: Update metadata 
       run: | 
           $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/metadata.json" 
-          msstore submission updateMetadata 9NP0T3QQXL70 $metadata
+          msstore submission updateMetadata 9NP0T3QQXL70 $metadata -v
  
     - name: Publish to Store 
-      run: msstore submission publish 9NP0T3QQXL70 
+      run: msstore submission publish 9NP0T3QQXL70 -v
