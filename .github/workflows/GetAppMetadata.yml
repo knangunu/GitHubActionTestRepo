@@ -14,5 +14,9 @@ jobs:
             $PSVersionTable
             msstore --version
             msstore submission get f16b20ce-f82e-4046-bd70-81e703ca6e30
+            msstore submission get 454ad58e-bb9a-4c56-a88c-c08011a1ead3
+            msstore submission get 0eea0e40-e7a3-4fe3-abb1-199ece696151
             msstore submission get 9NP0T3QQXL70
-            
+            msstore submission get 9N508QGFDRFC
+            msstore submission get 9NDRMZKRHKG3
+            msstore submission get 9NV4GS32KHG2
