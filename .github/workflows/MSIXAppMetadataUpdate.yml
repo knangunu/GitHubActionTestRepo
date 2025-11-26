@@ -17,5 +17,4 @@ jobs:
     - name: Publish to Store 
       run: |
          msstore submission publish 9NP0T3QQXL70 -v
-         msstore submission delete 9NP0T3QQXL70
          
