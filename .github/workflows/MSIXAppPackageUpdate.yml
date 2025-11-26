@@ -20,4 +20,4 @@ jobs:
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }} 
  
       - name: Publish App package 
-        run: msstore publish '${{ github.workspace }}/Apps/FitnessFuel/Release/pkota.FitnessFuel.msix' -id 9NP0T3QQXL70
+        run: msstore publish '${{ github.workspace }}/Apps/MSTestApp201/MSTestApp201_1.msixbundle' -id 9NDRMZKRHKG3
