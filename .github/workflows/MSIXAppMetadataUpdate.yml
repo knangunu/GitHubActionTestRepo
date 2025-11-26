@@ -12,17 +12,8 @@ jobs:
       run: | 
           $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/9NP0T3QQXL70.json" 
           msstore submission updateMetadata 9NP0T3QQXL70 $metadata -v
-          $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/9N508QGFDRFC.json" 
-          msstore submission updateMetadata 9N508QGFDRFC $metadata -v
-          $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/9NDRMZKRHKG3.json" 
-          msstore submission updateMetadata 9NDRMZKRHKG3 $metadata -v
-          $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/9NV4GS32KHG2.json" 
-          msstore submission updateMetadata 9NV4GS32KHG2 $metadata -v
  
     - name: Publish to Store 
       run: |
          msstore submission publish 9NP0T3QQXL70 -v
-         msstore submission publish 9N508QGFDRFC -v
-         msstore submission publish 9NDRMZKRHKG3 -v
-         msstore submission publish 9NV4GS32KHG2 -v
       
