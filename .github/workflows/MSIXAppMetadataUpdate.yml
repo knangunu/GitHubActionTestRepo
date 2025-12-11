@@ -8,6 +8,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: microsoft/microsoft-store-apppublisher@v1.1
     - run: msstore reconfigure --tenantId ${{ secrets.AZURE_AD_TENANT_ID }} --sellerId ${{ secrets.SELLER_ID }} --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
+    - run: msstore submission delete 9NP0T3QQXL70
     - name: Update metadata 
       run: |
           msstore submission get 9NP0T3QQXL70  
