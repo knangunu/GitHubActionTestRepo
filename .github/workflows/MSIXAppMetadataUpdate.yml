@@ -11,7 +11,6 @@ jobs:
     - run: msstore submission delete 9NP0T3QQXL70
     - name: Update metadata 
       run: |
-          msstore submission get 9NP0T3QQXL70  
           $metadata = Get-Content -Raw "${{ github.workspace }}/metadata/9NP0T3QQXL70.json" 
           msstore submission updateMetadata 9NP0T3QQXL70 $metadata -v
  
