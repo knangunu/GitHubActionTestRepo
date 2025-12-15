@@ -1,4 +1,4 @@
-name: GetAppMetadata2
+name: GetAppMetadata
 on:
    workflow_dispatch:
 jobs:
