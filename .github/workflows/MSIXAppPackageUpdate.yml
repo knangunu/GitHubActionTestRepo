@@ -20,4 +20,4 @@ jobs:
               --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }} 
  
       - name: Publish App package 
-        run: msstore publish '${{ github.workspace }}/Apps/MSTestApp201/MSTestApp201_1.msixbundle' -id 9NDRMZKRHKG3
+        run: msstore publish '${{ github.workspace }}/Apps/MSTestApp202/MSTestApp202_1.msixbundle' -id 9NV4GS32KHG2
