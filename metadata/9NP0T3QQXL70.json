@@ -1,5 +1,5 @@
 {
-  "Id": "1152921505700124791",
+  "Id": "1152921505700308334",
   "ApplicationCategory": "HealthAndFitness",
   "Pricing": {
     "TrialPeriod": "TrialNeverExpires",
@@ -101,13 +101,15 @@
     ],
     "CertificationReports": []
   },
-  "FileUploadUrl":null,
+  "FileUploadUrl":
+"https://ingestionpackagesprod1.blob.core.windows.net/ingestion/7e8c18c7-8f38-4927-b325-5281198af22e?skoid=6a05eb41-c97a-4f14-a5ce-d392056c0e00\u0026sktid=975f013f-7f24-47e8-a7d3-abc4752bf346\u0026skt=2025-12-19T13%3A51%3A14
+Z\u0026ske=2025-12-26T13%3A51%3A14Z\u0026sks=b\u0026skv=2024-05-04\u0026sv=2024-05-04\u0026se=2025-12-20T14%3A13%3A09Z\u0026sr=b\u0026sp=rwl\u0026sig=sZcMdza1ATVuxOFbdXAgTuW74bNSp3Wi2Xmu60Etwy8%3D",
   "ApplicationPackages": [
     {
       "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
       "FileStatus": "Uploaded",
-      "Id": "2000000000090850261",
-      "Version": "1.0.4.0",
+      "Id": "2000000000092120094",
+      "Version": "1.0.2.0",
       "Architecture": "neutral",
       "Languages": [
         "en-US"
@@ -138,6 +140,6 @@
     "Team": false,
     "Holographic": true
   },
-  "FriendlyName": "Submission 11",
+  "FriendlyName": "Submission 24",
   "Trailers": []
 }
