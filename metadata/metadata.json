@@ -1,5 +1,5 @@
 {
-  "Id": "1152921505700124791",
+  "Id": "1152921505700361955",
   "ApplicationCategory": "HealthAndFitness",
   "Pricing": {
     "TrialPeriod": "TrialNeverExpires",
@@ -17,7 +17,7 @@
     "en-us": {
       "BaseListing": {
         "Keywords": [],
-        "Description": "From Github actions...",
+        "Description": "From GitHub actions...",
         "Features": [],
         "ReleaseNotes": "",
         "Images": [
@@ -90,7 +90,7 @@
   "HasExternalInAppProducts": false,
   "MeetAccessibilityGuidelines": false,
   "NotesForCertification": "",
-  "Status": "PendingCommit",
+  "Status": "Published",
   "StatusDetails": {
     "Errors": [],
     "Warnings": [
@@ -101,13 +101,13 @@
     ],
     "CertificationReports": []
   },
-  "FileUploadUrl":null,
+  "FileUploadUrl": null,
   "ApplicationPackages": [
     {
       "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
       "FileStatus": "Uploaded",
-      "Id": "2000000000090850261",
-      "Version": "1.0.4.0",
+      "Id": "2000000000092308052",
+      "Version": "1.0.2.0",
       "Architecture": "neutral",
       "Languages": [
         "en-US"
@@ -124,7 +124,7 @@
       "IsPackageRollout": false,
       "PackageRolloutPercentage": 0,
       "PackageRolloutStatus": "PackageRolloutNotStarted",
-      "FallbackSubmissionId": "0"
+      "FallbackSubmissionId": "1152921505700297876"
     },
     "IsMandatoryUpdate": false,
     "MandatoryUpdateEffectiveDate": "1601-01-01T00:00:00Z"
@@ -138,6 +138,6 @@
     "Team": false,
     "Holographic": true
   },
-  "FriendlyName": "Submission 11",
+  "FriendlyName": "Submission 28",
   "Trailers": []
 }
