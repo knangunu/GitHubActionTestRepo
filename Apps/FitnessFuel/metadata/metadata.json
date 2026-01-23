@@ -1,5 +1,5 @@
 {
-  "Id": "1152921505699989349",
+  "Id": "1152921505700361955",
   "ApplicationCategory": "HealthAndFitness",
   "Pricing": {
     "TrialPeriod": "TrialNeverExpires",
@@ -17,7 +17,7 @@
     "en-us": {
       "BaseListing": {
         "Keywords": [],
-        "Description": "Test from auto update",
+        "Description": "From GitHub action",
         "Features": [],
         "ReleaseNotes": "",
         "Images": [
@@ -106,8 +106,8 @@
     {
       "FileName": "pkota.FitnessFuel_1.0.4.0_x86__4fxr7wcjkzrjg.msix",
       "FileStatus": "Uploaded",
-      "Id": "2000000000090850261",
-      "Version": "1.0.4.0",
+      "Id": "2000000000092308052",
+      "Version": "1.0.2.0",
       "Architecture": "neutral",
       "Languages": [
         "en-US"
@@ -121,10 +121,10 @@
   ],
   "PackageDeliveryOptions": {
     "PackageRollout": {
-      "IsPackageRollout": true,
+      "IsPackageRollout": false,
       "PackageRolloutPercentage": 0,
-      "PackageRolloutStatus": "PackageRolloutStopped",
-      "FallbackSubmissionId": "1152921505699848593"
+      "PackageRolloutStatus": "PackageRolloutNotStarted",
+      "FallbackSubmissionId": "1152921505700297876"
     },
     "IsMandatoryUpdate": false,
     "MandatoryUpdateEffectiveDate": "1601-01-01T00:00:00Z"
@@ -138,6 +138,6 @@
     "Team": false,
     "Holographic": true
   },
-  "FriendlyName": "Submission 10",
+  "FriendlyName": "Submission 28",
   "Trailers": []
 }
